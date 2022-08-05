@@ -1,0 +1,90 @@
+.post__wrapper {
+  width: 100%;
+  flex: 0.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.post__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.post__wrapper .post__input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.post__input .post__inputbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.post__inputbox img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.post__inputbox button {
+  flex: 1;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 2px solid rgba(196, 196, 196, 0.849);
+  outline: 0;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.post__modalBtns {
+  width: 100%;
+  padding: 10px 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.post__modalBtns button {
+  padding: 10px 20px;
+  /* width: 100%; */
+  font-size: 14px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 550;
+  color: #86888a;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.post__modalBtns button .button__img {
+  height: 20px;
+  width: 20px;
+}
+
+.post__modalBtns button:hover {
+  background-color: #e4e4e477;
+}
+
+.post__container {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
